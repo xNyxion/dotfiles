@@ -1,1 +1,30 @@
-#+TITLE: Nyx Dotfiles
+#+title: Dotfiles Overview
+#+author: Nyxion
+#+filetags: :dotfiles:config:literate:
+#+startup: fold
+
+* Overview
+This document serves as the entry point to all my literate configurations.
+Each section links both to the *source* (the Org file) and the *tangled output*
+used by the system.
+
+* Emacs
+:PROPERTIES:
+:category: editor
+:tags: emacs elpaca literate
+:END:
+
+- Source: [[file:emacs/nyx.org][nyx.org]]
+- Tangled to: [[file:~/.config/emacs/init.el][~/.config/emacs/nyx.el]]
+- Notes: My Emacs configuration is tangled automatically on save.
+  See also [[id:org-babel-tangle][Org Babel]].
+
+* Shell (Zsh)
+:PROPERTIES:
+:category: shell
+:tags: zsh terminal
+:END:
+
+- Source: [[file:zshell/zsh.org][zsh.org]]
+- Tangled to: [[file:~/.zshrc][~/.zshrc]] and [[File:~/.config/zshell][zshell]]
+- Highlights: FZF integration, history config, aliases.
